@@ -1,0 +1,120 @@
+* {
+	font-family: 'Mukta', monospace;
+	color: #0b3954;
+}
+
+#first {
+	
+	background-image: url("./images/Pinkish.jpg");
+ 	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+#second {
+		margin-top: 20px;
+		background-image: url("./images/kitchen.jpg");
+	 	background-repeat: no-repeat;
+	    background-attachment: fixed;  
+	    background-size: cover;
+	    background-color: #cccccc;
+}
+
+#third {
+	margin-top: 20px;
+	background-image: url("./images/desk.jpg");
+ 	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+#top {
+	margin-bottom: 60px;
+}
+
+#earl {
+	padding-top: 200px;
+	padding-bottom: 400px;
+}
+
+#welcoming {
+	margin-top: 30px;
+	padding-top: 200px;
+	padding-bottom: 350px;
+}
+
+
+
+@media (min-width: 786px) {
+	#reach {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 786px) {
+	#reach {
+		font-size: 30px;
+	}
+}
+
+
+
+nav {
+	width: 25%;
+}
+
+.card #welcome {
+	background-color: #ed254e;
+	height: 70px;
+}
+
+#menu {
+	padding-top: 50px;
+	
+}
+
+@media (max-width: 786px) {
+	#menu {
+		padding-left: 30px;
+		padding-top: 0px;
+	}
+}
+
+@media (min-width: 786px) {
+	#menu {
+		padding-left: 30px;
+		padding-top: 0px;
+		font-size: 25px;
+		
+	}
+}
+
+
+
+
+@media (min-width: 786px) {
+	#about p,h1,h6,h3 {
+		font-size: 25px;
+	}
+}
+
+#about #about-card {
+	background-color: #011936;
+}
+
+#about #my-name-card-body {
+	background-color: #3c1518;
+	height: 50px;
+	
+}
+
+#favourite-card {
+	background-color: #a44200;
+}
+
+#reach-card {
+	background-color: #92dce5;
+	
+}
