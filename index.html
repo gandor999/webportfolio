@@ -24,27 +24,27 @@
 
 			<nav class="navbar navbar-expand navbar-light bg-muted fixed-top fs-1">		  
 			  <div class="collapse navbar-collapse" id="navbarNavDropdown">		 
-			        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Navigation
+			        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          <img width="20" src="./images/nav-crop.png">
 			        </a>
 
 			        <!-- Dropdown Menu -->
 			        <div class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item bg-muted text-light" href="#top">Home</a>
-			          <a class="dropdown-item bg-muted text-light" href="#about">About Me</a>
-			          <a class="dropdown-item bg-muted text-light" href="#fav">Favourites</a>
-			          <a class="dropdown-item bg-muted text-light" href="#contact">Reach Out</a>
+			          <a class="dropdown-item bg-muted text-dark" href="#top">Home</a>
+			          <a class="dropdown-item bg-muted text-dark" href="#about">About Me</a>
+			          <a class="dropdown-item bg-muted text-dark" href="#fav">Favourites</a>
+			          <a class="dropdown-item bg-muted text-dark" href="#contact">Reach Out</a>
 			          
 			        </div>
 			  </div>
 			</nav>
 
 			<div class=""  id="menu">
-				<div class="d-block d-md-flex justify-content-center pt-5">
-					<a class="d-block text-dark mx-2 mx-md-4" href="#top">Home</a>
-					<a class="d-block text-dark mx-2 mx-md-4" href="#about">About Me</a>
-					<a class="d-block text-dark mx-2 mx-md-4" href="#fav">Favourites</a>
-					<a class="d-block text-dark mx-2 mx-md-4" href="#contact">Reach Out</a>
+				<div class="d-md-flex justify-content-center pt-5">
+					<a class="d-none d-md-block text-dark mx-2 mx-md-4" href="#top">Home</a>
+					<a class="d-none d-md-block text-dark mx-2 mx-md-4" href="#about">About Me</a>
+					<a class="d-none d-md-block text-dark mx-2 mx-md-4" href="#fav">Favourites</a>
+					<a class="d-none d-md-block text-dark mx-2 mx-md-4" href="#contact">Reach Out</a>
 					
 				</div>
 			</div>
@@ -52,25 +52,27 @@
 
 		<section class="text-center container-fluid" id="welcoming">
 			<div class="d-flex justify-content-center bg-transparent align-items-center p-4 text-light" id="welcome-container">
-				<div class="card">
-				  <div class="card-body rounded d-flex justify-content-center align-items-center pb-1" id="welcome">
+				<div class="card rounded-pill">
+				  <div class="card-body rounded-pill d-flex justify-content-center align-items-center pb-1" id="welcome">
 				  	<h1 class="card-title text-white">Welcome!</h1>
 				  </div>
 				</div>
 			</div>
 
 			<p><em>This website is a capstone project made by Geodor Ruales, a Zuitt coding bootcamp trainee.</em></p>
+			<hr id="hr-first">
 		</section>
 
+
 		<!-- About Section Start -->
-		<section  id="about" class="mt-5">
-			<div class="container-fluid text-center">
-				<div class="d-xl-flex justify-content-center align-items-center row">
+		<section  id="about" class="mt-5 p-5">
+			<div class="container-fluid text-center align-items-end">
+				<div class="d-xl-flex justify-content-center align-items-end row">
 					<div class="col order-2 order-xl-1">
 						
 						<div class="d-flex justify-content-center align-items-center p-4 rounded text-light" id="welcome-container">
-							<div class="card">
-							  <div class="card-body rounded d-flex justify-content-center align-items-center pb-1" id="about-card">
+							<div class="card rounded-pill">
+							  <div class="card-body rounded-pill d-flex justify-content-center align-items-center pb-1" id="about-card">
 							  	<h1 class="card-title text-light">About</h1>
 							  </div>
 							</div>
@@ -81,7 +83,7 @@
 						  	<p class="text-justify card-text text-light">Geodor Araco Ruales, better known as "George", is an aspiring Software Engineer. Although his education is far from tech, he has a hobby in solving basic programming problems in HackerRank. He picked this up when he had some free time after work and now has decided on pursuing a career in this industry.</p>
 						  	<p class="text-justify card-text flex-column text-light">His programming tool of choice is C++ and is still on the journey of learning other programming tools so as to expand his toolbox.</p>
 							<p class="text-justify card-text text-light">He idolizes Earl Nightingale and Warren Buffet. He thinks of them as two old but really smart people.</p>
-							<p class="text-justify text-light">Born from the city of gentle people. He is the eldest of two siblings and he very much loves his family, his girlfriend, and his dogs.</p>
+							
 						  </div>
 						</div>
 						
@@ -90,10 +92,10 @@
 						
 					</div>
 
-					<div class="col-xl-3 order-1 order-xl-2 mb-4 mt-5" id="container-profile">
-						<img width="250" class="pb-4 img-fluid rounded-circle" src="./images/Profile.jpg">
-						<div class="card" id="my-name-card">
-						  <div class="card-body flex-column rounded d-flex justify-content-center align-items-center pb-4" id="my-name-card-body">
+					<div class="col-xl-3 order-1 order-xl-2 mt-5 justify-content-center" id="container-profile">
+						<img width="320" class="pb-4 img-fluid rounded-circle" src="./images/Profile.jpg">
+						<div class="card rounded-pill" id="my-name-card">
+						  <div class="card-body flex-column rounded-pill d-flex justify-content-center align-items-center pb-4" id="my-name-card-body">
 						  	<h3 class="mt-3 card-title text-light">Geodor Ruales</h3>
 						  </div>
 						</div>
@@ -110,18 +112,24 @@
 		<section id="earl">
 			<div class="container-fluid mt-5 pt-5 text-center">
 				<h3 class="text-center"><strong><em>"Success is the progressive realization of a worthy ideal"</em></strong></h3>
-				<p class="text-center mb-5"><em>- Earl Nightingale</em></p>
+				<p class="text-center"><em>- Earl Nightingale</em></p>
+				<hr id="hr-second">
 			</div>
 		</section>
 		
 	</section>
 
+
+
+<!-- Favourite Start -->
+
 	<section id="second">
 		<!-- Continue Cotent Start Here -->
 		<section>
 			<div id="fav" class="container-fluid p-5">
-				<div class="d-md-flex justify-content-center align-items-center">
-					<!-- Carousel -->
+				<div class="d-md-flex justify-content-center align-items-start pt-5">
+
+					<!-- Carousel Start -->
 					<div class="col pb-3">
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner">
@@ -154,19 +162,19 @@
 						  </a>
 						</div>
 					</div>
-					<!-- Carousel -->
+					<!-- Carousel End -->
 					
-					<div class="col-md-6 align-self-top">
+					<div class="col-md-6 align-self-start">
 
-						<div class="d-flex justify-content-center align-items-center p-4 rounded text-light" id="welcome-container">
-							<div class="card">
-							  <div class="card-body rounded d-flex justify-content-center align-items-center pb-1" id="favourite-card">
+						<div class="d-flex justify-content-center align-items-center pb-4 rounded text-light" id="welcome-container">
+							<div class="card rounded-pill">
+							  <div class="card-body rounded-pill d-flex justify-content-center align-items-center pb-1" id="favourite-card">
 							  	<h1 class="card-title text-light">Favourites</h1>
 							  </div>
 							</div>
 						</div>
 
-						<div class="card">
+						<div class="card rounded">
 						  <div class="card-body p-5 flex-column rounded d-flex pb-1" id="favourite-card">
 						  	<p class="text-justify card-text text-light">George loves bacon, burgers, and chicken!</p>
 						  	<p class="text-justify card-text flex-column text-light">Just looking at these makes him hungry. Gosh, imagine the ordeal he had to go through picking these pictures hehe.</p>
@@ -182,13 +190,15 @@
 
 		</section>
 	</section>
+<!-- Favourite End -->
+
 
 
 	<section id="third">
 		<div id="contact" class="container-fluid p-5">
 			<div class="d-md-flex justify-content-center align-items-center" id="third-container">
 				<div id="reach">
-					<div class="card">
+					<div class="card rounded">
 					  <div class="card-body flex-column rounded d-flex pb-3" id="reach-card">
 					  	<p class="card-text text-dark">Reach Out!</p>
 					  </div>
@@ -228,7 +238,7 @@
 				              </button>
 				            </div>
 				            <div class="modal-body">
-				              Message Sent!
+				              Messaging system is temporarily unavailable.
 				            </div>
 				            <div class="modal-footer">
 				              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -250,8 +260,9 @@
 
 	<footer>
 		<div class="container-fluid d-flex justify-content-center align-items-center">
+			<span class="m-1"><img width="18" src="./images/gmail.png"></span>
 			<span>geodorruales@gmail.com</span>
-			<span></span>
+			
 			<span></span>
 		</div>
 	</footer>

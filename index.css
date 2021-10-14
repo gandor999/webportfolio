@@ -3,6 +3,18 @@
 	color: #0b3954;
 }
 
+#hr-first {
+	width: 50%;
+	border-width: 1px;
+	border-color: white;
+}
+
+#hr-second {
+	width: 50%;
+	border-width: 1px;
+	border-color: white;
+}
+
 #first {
 	
 	background-image: url("./images/Pinkish.jpg");
@@ -19,6 +31,13 @@
 	    background-attachment: fixed;  
 	    background-size: cover;
 	    background-color: #cccccc;
+
+}
+
+@media (min-width: 786px) {
+	#second {
+		height: 600px;
+	}
 }
 
 #third {
@@ -86,7 +105,7 @@ nav {
 	#menu {
 		padding-left: 30px;
 		padding-top: 0px;
-		font-size: 25px;
+		font-size: 20px;
 		
 	}
 }
@@ -105,10 +124,16 @@ nav {
 }
 
 #about #my-name-card-body {
-	background-color: #3c1518;
+	background-color: #a4031f;
 	height: 50px;
-	
 }
+
+@media (min-width: 786px) {
+	#favourite-card {
+		font-size: 25px;
+	}
+}
+
 
 #favourite-card {
 	background-color: #a44200;
