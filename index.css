@@ -3,6 +3,10 @@
 	color: #0b3954;
 }
 
+#profile {
+	border-radius: 50%;
+}
+
 #hr-first {
 	width: 50%;
 	border-width: 1px;
@@ -119,6 +123,8 @@ nav {
 	}
 }
 
+
+
 #about #about-card {
 	background-color: #011936;
 }
@@ -128,9 +134,27 @@ nav {
 	height: 50px;
 }
 
-@media (min-width: 786px) {
+@media (min-width: 930px) {
 	#favourite-card {
 		font-size: 25px;
+	}
+}
+
+@media (max-width: 320px) {
+	#favourite-card h1 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	#my-name-card-body h3 {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 320px) {
+	#about-card h1 {
+		font-size: 20px;
 	}
 }
 
