@@ -40,7 +40,13 @@
 
 @media (min-width: 786px) {
 	#second {
-		height: 600px;
+		height: 500px;
+	}
+}
+
+@media (min-width: 930px) {
+	#second {
+		height: 550px;
 	}
 }
 
