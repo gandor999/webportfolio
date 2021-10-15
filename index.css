@@ -1,6 +1,7 @@
 * {
 	font-family: 'Mukta', monospace;
 	color: #0b3954;
+	scroll-behavior: smooth;
 }
 
 #profile {
@@ -47,6 +48,18 @@
 @media (min-width: 930px) {
 	#second {
 		height: 600px;
+	}
+}
+
+@media (min-width: 1618px) {
+	#second {
+		height: 1000px;
+	}
+}
+
+@media (min-width: 2500px) {
+	#second {
+		height: 1500px;
 	}
 }
 
